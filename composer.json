@@ -1,0 +1,28 @@
+{
+    "name": "phparm/contract-support",
+    "description": "contract support",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "contract",
+        "support"
+    ],
+    "homepage": "https://github.com/phparm/contract-support",
+    "authors": [
+        {
+            "name": "GHJayce",
+            "email": "jaycedeng@outlook.com",
+            "homepage": "https://github.com/GHJayce",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phparm\\Contract\\Support\\": "src/"
+        }
+    }
+}
