@@ -1,7 +1,7 @@
 
 # Contract
 ## Serialization
-About Serialization Related Interfaces.
+About serialization related interfaces.
 
 ### Installation
 ```bash
