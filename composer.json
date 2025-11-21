@@ -1,14 +1,14 @@
 {
-    "name": "phparm/contract-support",
-    "description": "contract support",
+    "name": "phparm/contract-serialization",
+    "description": "contract serialization",
     "type": "library",
     "license": "MIT",
     "keywords": [
         "php",
         "contract",
-        "support"
+        "serialization"
     ],
-    "homepage": "https://github.com/phparm/contract-support",
+    "homepage": "https://github.com/phparm/contract-serialization",
     "authors": [
         {
             "name": "GHJayce",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Phparm\\Contract\\Support\\": "src/"
+            "Phparm\\Contract\\Serialization\\": "src/"
         }
     }
 }

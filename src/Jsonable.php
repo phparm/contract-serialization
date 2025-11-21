@@ -2,13 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Phparm\Contract\Support;
+namespace Phparm\Contract\Serialization;
 
 interface Jsonable
 {
     /**
      * Convert the object to its JSON representation.
-     *
      * @param  int  $options
      * @return string
      */

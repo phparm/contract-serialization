@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Phparm\Contract\Support;
+namespace Phparm\Contract\Serialization;
 
 /**
  * @template TKey of array-key
@@ -12,7 +12,6 @@ interface Arrayable
 {
     /**
      * Get the instance as an array.
-     *
      * @return array<TKey, TValue>
      */
     public function toArray(): array;
