@@ -3,7 +3,7 @@
 ## Serialization
 About Serialization Related Interfaces.
 
-### installation
+### Installation
 ```bash
 composer require phparm/contract-serialization
 ```
